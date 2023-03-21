@@ -89,17 +89,37 @@ var upperCasedCharacters = [
 ];
 
 var passwordLength = 0;
+var upperCasedCharacters= false;// note sure if this is correct
+var lowerCasedCharacters= false;// note sure if this is correct
+var numericCharacters= false;// note sure if this is correct
+
+var specialCharacters= false; // note sure if this is correct
+
 
 // Function to prompt user for password options
 function getPasswordOptions() {
 
-// Pasowrd legnth -1
+// Passowrd legnth -1
 
-  var passwordLength = prompt("Please enter...");
+  var passwordLength = prompt("Please enter the amount of characters you require");
   console.log(passwordLength);
+
+
+// Character types -2
+
+var upperCasedCharacters = prompt("Does your password require uppercase characters?");
+  console.log(upperCasedCharacters);
+
+
+var lowerCasedCharacters = prompt("Does your password require lowercase characters?");
+  console.log(lowerCasedCharacters);
+
+ var numericCharacters = prompt("Does your password require numeric characters?");
+  console.log(numericCharacters);
+
 }
 
-
+// Special characters -3
 
 
 
