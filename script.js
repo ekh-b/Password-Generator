@@ -88,14 +88,21 @@ var upperCasedCharacters = [
   'Z'
 ];
 
+var passwordLength = 0;
+
 // Function to prompt user for password options
 function getPasswordOptions() {
 
+// Pasowrd legnth -1
+
   var passwordLength = prompt("Please enter...");
   console.log(passwordLength);
-
-
 }
+
+
+
+
+
 
 // Function for getting a random element from an array
 function getRandom(arr) {
@@ -106,7 +113,7 @@ function getRandom(arr) {
 function generatePassword() {
 
   getPasswordOptions();
-  return "test password";
+  return "Your secure password";
 
 }
 
