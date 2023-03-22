@@ -16,7 +16,7 @@ https://ekh-b.github.io/Password-Generator/
 2) Then click on the console tab to view the javascript code.
 
 
-   ![image](assets/images/******)
+   ![image](assets/images/Screenshot1.png)
 
 ## Credits
 
