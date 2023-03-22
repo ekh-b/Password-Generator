@@ -92,7 +92,6 @@ var passwordLength = 0;
 var upperCasedCharacters= false;// note sure if this is correct
 var lowerCasedCharacters= false;// note sure if this is correct
 var numericCharacters= false;// note sure if this is correct
-
 var specialCharacters= false; // note sure if this is correct
 
 
@@ -117,12 +116,14 @@ var lowerCasedCharacters = prompt("Does your password require lowercase characte
  var numericCharacters = prompt("Does your password require numeric characters?");
   console.log(numericCharacters);
 
-}
+
 
 // Special characters -3
 
+var specialCharacters = prompt("Does your password require special characters?");
+console.log(specialCharacters);
 
-
+}
 
 // Function for getting a random element from an array
 function getRandom(arr) {
@@ -133,7 +134,7 @@ function getRandom(arr) {
 function generatePassword() {
 
   getPasswordOptions();
-  return "Your secure password";
+  return "Your Secure Password";
 
 }
 
